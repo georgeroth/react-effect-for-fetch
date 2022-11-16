@@ -16,7 +16,7 @@ export default function UsersList({usersList}) {
                     }
                 
                 return (
-                <UsersListItem user={user} index={index} backgroundColor={backgroundColor}/>
+                <UsersListItem user={user} key={index} backgroundColor={backgroundColor}/>
                 )
             })}
             
